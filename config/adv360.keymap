@@ -67,7 +67,7 @@
         &none &none        &none        &none        &none                                       &none &none &none &none      &bl BL_TOG &rgb_ug RGB_TOG                                     &bl BL_INC   &bl BL_DEC   &none &none &none
       >;
     };
-    prime_layer {
+    reckxl_layer {
       bindings = <
         &ppipe    &pkp_n1     &lkp_n2   &lkp_n3  &lkp_n4    &akp_n5 &tog 4                                                     &mo 3          &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9   &skp_n0  &eprcnt
         &kp TAB   &kp SEMI    &kp COMMA &kp DOT  &kp P      &kp Y   &none                                                      &macro_kinesis &kp F    &kp G    &kp C     &kp R     &kp L    &bhash
