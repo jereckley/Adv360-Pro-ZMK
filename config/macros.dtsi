@@ -1,3 +1,9 @@
+macro_promt_vim: macro_promt_vim{
+compatible = "zmk,behavior-macro";
+label = "macro_promt_vim";
+#binding-cells = <0>;
+bindings = <&kt LSHFT>, <&kp COLON>, <&kt LSHFT>;
+};
 macro_right_vim: macro_right_vim{
 compatible = "zmk,behavior-macro";
 label = "macro_right_vim";
