@@ -1,3 +1,15 @@
+macro_right_vim: macro_right_vim{
+compatible = "zmk,behavior-macro";
+label = "macro_right_vim";
+#binding-cells = <0>;
+bindings = <&kt RCTRL>, <&kp DOLLAR>, <&kt RCTRL>;
+};
+macro_macro_left_vim: macro_macro_left_vim{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_left_vim";
+#binding-cells = <0>;
+bindings = <&kt LSHFT>, <&kp AT>, <&kt LSHFT>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
