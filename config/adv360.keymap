@@ -164,7 +164,7 @@ acaret: at_caret {
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                           &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &macro_num_pad_off                                                            &none &kp Y  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
-        &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
+        &kp ESC   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE      &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp H  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp HOME &kp PG_UP                           &kp N  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &kp RSHFT
         &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp DEL   &kp END  &kp PG_DN &kp ENTER &kp KP_N0              &kp UP     &kp DOWN     &kp KP_DOT    &kp RBKT        &mo 2
       >;
@@ -192,7 +192,7 @@ acaret: at_caret {
         &ppipe    &pkp_n1     &lkp_n2   &lkp_n3  &lkp_n4    &akp_n5 &tog 1                                                     &mo 3          &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9   &skp_n0  &eprcnt
         &kp TAB   &kp SEMI    &kp COMMA &kp DOT  &kp P      &kp Y   &tog 4                                                      &kp RCMD &kp F    &kp G    &kp C     &kp R     &kp L    &bhash
         &kp ESC   &kp A       &kp O     &kp E    &kp U      &kp I   &kp DEL    &kp LCMD &kp LALT                    &macro_promt_vim  &kp RCTRL  &kp RALT &kp D    &kp H    &kp T     &kp N     &kp S    &kp MINUS
-        &kp LSHFT &kp APOS    &kp Q     &kp J    &kp K      &kp X     &macro_num_pad              &macro_macro_left_vim         &kp B    &kp M    &kp W     &kp V     &kp Z    &kp RSHFT
+        &kp LSHFT &kp APOS    &kp Q     &kp J    &kp K      &kp X     &macro_num_pad              &kp N0         &kp B    &kp M    &kp W     &kp V     &kp Z    &kp RSHFT
         &mo 2     &dgrave     &ggrave   &kp LEFT &kp RIGHT                &kp BKSP  &kp LSHFT &kp END              &kp RSHFT &kp ENTER &kp SPACE       &kp UP   &kp DOWN  &kp FSLH  &acaret  &mo 2
         >;
     };
