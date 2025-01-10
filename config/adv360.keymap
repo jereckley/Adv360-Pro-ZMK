@@ -173,7 +173,7 @@ acaret: at_caret {
       bindings = <
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
         &trans &trans &trans &trans &trans &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &kp K_MUTE  &kp C_VOL_DN  &kp K_VOLUME_UP  &kp K_PLAY_PAUSE  &trans
+        &trans &trans &trans &trans &trans &trans  &none        &trans &trans &trans &trans        &none &trans &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PLAY_PAUSE  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
@@ -192,7 +192,7 @@ acaret: at_caret {
         &ppipe    &pkp_n1     &lkp_n2   &lkp_n3  &lkp_n4    &akp_n5 &tog 1                                                     &mo 3          &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9   &skp_n0  &eprcnt
         &kp TAB   &kp SEMI    &kp COMMA &kp DOT  &kp P      &kp Y   &tog 4                                                      &kp RCMD &kp F    &kp G    &kp C     &kp R     &kp L    &bhash
         &kp ESC   &kp A       &kp O     &kp E    &kp U      &kp I   &kp DEL    &kp LCMD &kp LALT                    &macro_promt_vim  &kp RCTRL  &kp RALT &kp D    &kp H    &kp T     &kp N     &kp S    &kp MINUS
-        &kp LSHFT &kp APOS    &kp Q     &kp J    &kp K      &kp X     &mo 1              &macro_right_vim         &kp B    &kp M    &kp W     &kp V     &kp Z    &kp RSHFT
+        &kp LSHFT &kp APOS    &kp Q     &kp J    &kp K      &kp X     &mo 1              &macro_macro_left_vim         &kp B    &kp M    &kp W     &kp V     &kp Z    &kp RSHFT
         &mo 2     &dgrave     &ggrave   &kp LEFT &kp RIGHT                &kp BKSP  &kp LSHFT &kp END              &kp RSHFT &kp ENTER &kp SPACE       &kp UP   &kp DOWN  &kp FSLH  &acaret  &mo 2
         >;
     };
