@@ -8,7 +8,7 @@ macro_macro_left_vim: macro_macro_left_vim{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_left_vim";
 #binding-cells = <0>;
-bindings = <&kt LSHFT>, <&kp AT>, <&kt LSHFT>;
+bindings = <&kt LSHFT>, <&kp NUMBER_0>, <&kt LSHFT>
 };
 macro_promt_vim: macro_promt_vim{
 compatible = "zmk,behavior-macro";
